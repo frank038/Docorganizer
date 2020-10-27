@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# V. 1.0
+# V. 1.1
 ############# PERSONALIZATION #############
 # size of the main window
 WWIDTH=1100
@@ -529,12 +529,14 @@ class wiconview():
                     with open(os.path.join("collections/default", ffolder, "date"), "r") as f:
                         fdate = f.readline().strip()
                     with open(os.path.join("collections/default", ffolder, "comment"), "r") as f:
-                        fcomm = f.readline().strip()
+                        fcomm = f.readlines()
                     #
                     if not fcomm:
-                        fcomm = "No comment"
+                        fcomm2 = "No comment"
+                    else:
+                        fcomm2 = "".join(fcomm)
                     #
-                    self.storeItem(file_path, ffolder, fdate, fcomm)
+                    self.storeItem(file_path, ffolder, fdate, fcomm2)
         
     # service function
     def storeItem(self, file_path, ffolder, fdate, fcomm):
