@@ -13,4 +13,6 @@ Features:
 - menu (using the right mouse button) for some operations: Open/View the file, Delete, Modify, Open the parent folder, File data;
 - double click on the item to open/view it with the default program.
 
+Some options can be changed in the top part of the program file.
+
 ![Screenshoot](https://github.com/frank038/Docorganizer/blob/main/screenshot.png)
