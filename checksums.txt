@@ -1,2 +1,2 @@
-md5sum: 92ae0e93abf5195aa4f71fb240386573  docorganizer_20201027.tar.gz
-sha256sum: 4100f59e6e32bba2b9745d87af56380e01adef8e2c6094ad16d4617c4105bddf  docorganizer_20201027.tar.gz
+md5sum: b045e1a536c56e772bbe5a8a736c8834  docorganizer_202011103.tar.gz
+sha256sum: 88fde56cbd1bc0c2a580c9dbb8b76dc1d635e233d2779ef77f7af4026bc9de77  docorganizer_20201103.tar.gz
